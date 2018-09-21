@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ChannelList from './ChannelList';
+import ConnectedChannelList from './ChannelList';
 
 export default class Sidebar extends Component {
 
@@ -14,7 +14,7 @@ export default class Sidebar extends Component {
           </h3>
         </div>
         <h5>Channels</h5>
-        <ChannelList />
+        <ConnectedChannelList />
       </section>
     );
   }
